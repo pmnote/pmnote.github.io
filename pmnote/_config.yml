@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 产品笔记
-subtitle: '成为TOP产品'
-description: '把握了产品的第一性，又如何把握自我的第一性呢'
-keywords: PM
+title: Hexo
+subtitle: ''
+description: ''
+keywords:
 author: John Doe
 language: en
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://pmnote.github.io
+url: http://example.com
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -97,12 +97,9 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme:  kaze ##landscape
+theme: landscape
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: git
-  repo: https://github.com/pmnote/pmnote.github.io.git  #https://bitbucket.org/JohnSmith/johnsmith.bitbucket.io
-  
-
+  type: ''
